@@ -12,3 +12,9 @@ jobs:
 
     - name: Stpe2
       run: echo "Step2 Executed"
+
+    - name: Checkout the code
+      uses: actions/checkout@v6.0.1
+
+    - name: Read the content of the code repo
+      run: cat three.txt
